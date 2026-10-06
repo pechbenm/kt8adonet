@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\0\\source\\repos\\KT8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\models\\cryptoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\models\\cryptoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\views\\crypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\views\\crypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\services\\aescryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\services\\aescryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\services\\rsacryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\services\\rsacryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\services\\cryptocommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\services\\cryptocommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|c:\\users\\0\\source\\repos\\kt8\\kt8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D7ECC5-5C4F-4C54-AA4F-EA69341BE68B}|KT8\\KT8.csproj|solutionrelative:kt8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Views\\Crypto\\Index.cshtml",
+              "RelativeDocumentMoniker": "KT8\\Views\\Crypto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Views\\Crypto\\Index.cshtml",
+              "RelativeToolTip": "KT8\\Views\\Crypto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-06T21:09:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Program.cs",
+              "RelativeDocumentMoniker": "KT8\\Program.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Program.cs",
+              "RelativeToolTip": "KT8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:49:28.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RsaCryptoService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Services\\RsaCryptoService.cs",
+              "RelativeDocumentMoniker": "KT8\\Services\\RsaCryptoService.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Services\\RsaCryptoService.cs",
+              "RelativeToolTip": "KT8\\Services\\RsaCryptoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:48:22.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "KT8\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "KT8\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:46:57.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AesCryptoService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Services\\AesCryptoService.cs",
+              "RelativeDocumentMoniker": "KT8\\Services\\AesCryptoService.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Services\\AesCryptoService.cs",
+              "RelativeToolTip": "KT8\\Services\\AesCryptoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:46:33.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CryptoCommon.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Services\\CryptoCommon.cs",
+              "RelativeDocumentMoniker": "KT8\\Services\\CryptoCommon.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Services\\CryptoCommon.cs",
+              "RelativeToolTip": "KT8\\Services\\CryptoCommon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:45:10.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CryptoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Models\\CryptoViewModel.cs",
+              "RelativeDocumentMoniker": "KT8\\Models\\CryptoViewModel.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Models\\CryptoViewModel.cs",
+              "RelativeToolTip": "KT8\\Models\\CryptoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:44:16.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KT8\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\0\\source\\repos\\KT8\\KT8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KT8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:57:18.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
