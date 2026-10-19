@@ -1,0 +1,105 @@
+﻿@model KT8.Models.CryptoViewModel
+@{
+    ViewData["Title"] = "Шифрование текста";
+}
+
+<h1 class="mb-4">Шифрование и дешифрование текста</h1>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <div>@error.ErrorMessage</div>
+        }
+    </div>
+}
+
+<form asp-action="Encrypt" method="post" id="cryptoForm">
+    <div class="mb-3">
+        <label asp-for="Input" class="form-label"></label>
+        <textarea asp-for="Input" class="form-control" rows="4"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label d-block">Алгоритм</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" asp-for="Algorithm" value="Aes" id="algAes" />
+            <label class="form-check-label" for="algAes">AES-256 (симметричный)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" asp-for="Algorithm" value="Rsa" id="algRsa" />
+            <label class="form-check-label" for="algRsa">RSA-2048 (асимметричный)</label>
+        </div>
+    </div>
+
+    <div class="form-check mb-3">
+        <input class="form-check-input" asp-for="GenerateKey" />
+        <label class="form-check-label" asp-for="GenerateKey"></label>
+    </div>
+
+    <div id="aesKeys" class="mb-3">
+        <label asp-for="SecretKey" class="form-label"></label>
+        <input asp-for="SecretKey" class="form-control font-monospace" autocomplete="off" />
+    </div>
+
+    <div id="rsaKeys" class="mb-3">
+        <label asp-for="PublicKey" class="form-label"></label>
+        <textarea asp-for="PublicKey" class="form-control font-monospace" rows="3"></textarea>
+        <label asp-for="PrivateKey" class="form-label mt-2"></label>
+        <textarea asp-for="PrivateKey" class="form-control font-monospace" rows="5"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Зашифровать</button>
+    <button type="submit" id="decryptBtn" asp-action="Decrypt" class="btn btn-success">Расшифровать</button>
+</form>
+
+@if (Model.Output is not null)
+{
+    <div class="card mt-4">
+        <div class="card-header">@Model.OutputTitle</div>
+        <div class="card-body">
+            @if (Model.KeysGenerated)
+            {
+                <div class="alert alert-info">
+                    Ключ сгенерирован автоматически и подставлен в поля формы.
+                    Сохраните его: без ключа расшифровать данные нельзя.
+                </div>
+            }
+
+            <textarea id="output" class="form-control font-monospace" rows="5" readonly>@Model.Output</textarea>
+
+            @if (Model.OutputIsCipherText)
+            {
+                <button type="button" id="verifyBtn" class="btn btn-outline-success mt-3">
+                    Проверить: расшифровать результат
+                </button>
+            }
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        const form = document.getElementById('cryptoForm');
+
+        // Показываем поля ключей только для выбранного алгоритма
+        function updateKeyFields() {
+            const isRsa = document.getElementById('algRsa').checked;
+            document.getElementById('aesKeys').classList.toggle('d-none', isRsa);
+            document.getElementById('rsaKeys').classList.toggle('d-none', !isRsa);
+        }
+        document.querySelectorAll('input[name="Algorithm"]')
+            .forEach(r => r.addEventListener('change', updateKeyFields));
+        updateKeyFields();
+
+        // Подставляем шифртекст во вход и отправляем форму на расшифровку
+        const verifyBtn = document.getElementById('verifyBtn');
+        if (verifyBtn) {
+            verifyBtn.addEventListener('click', () => {
+                document.getElementById('Input').value = document.getElementById('output').value;
+                form.requestSubmit(document.getElementById('decryptBtn'));
+            });
+        }
+    </script>
+}
